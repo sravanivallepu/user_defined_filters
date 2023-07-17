@@ -1,0 +1,19 @@
+{% load userfilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>UESR DEFINED FILTERS</h1>
+        <h2>{{data}}</h2>
+        <h2>{{data|swap}}</h2>
+        <h2>{{data|remove:'H'}}</h2>
+        <h2>{{data|count:'o'}}</h2>
+        <h2>{{data|lower}}</h2>
+    </center>
+</body>
+</html>
